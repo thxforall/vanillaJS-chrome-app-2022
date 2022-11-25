@@ -1,0 +1,32 @@
+:root {
+  --blue: #3b4f8c;
+  --green: #02735e;
+  --yellow: #f29f05;
+  --pink: #f2d1b3;
+  --orange: #f25835;
+}
+
+body {
+  background-color: var(--blue);
+  transition: background-color 0.2s ease-in-out;
+}
+
+h1 {
+  color: white;
+}
+
+.green {
+  background-color: var(--green);
+}
+
+.yellow {
+  background-color: var(--yellow);
+}
+
+.pink {
+  background-color: var(--pink);
+}
+
+.orange {
+  background-color: var(--orange);
+}
