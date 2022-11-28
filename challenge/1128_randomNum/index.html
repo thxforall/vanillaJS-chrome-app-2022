@@ -4,22 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link rel="stylesheet" href="src/style.css" />
+    <title>Document</title>
   </head>
   <body>
     <main>
       <h1>@Random Number Game@</h1>
-      <h3>
-        Generate a number between 0 and
-        <input type="number" />
-      </h3>
-      <form action="#">
+      <form action="#" id="number-game">
+        <h3>
+          <label for="maxNum">Generate a number between 0 and</label>
+          <input required id="input-maxNum" type="number" min="0" />
+        </h3>
         <label for="guessNum">Guess the number: </label>
-        <input type="number" id="guessNum" name="guessNum" />
+        <input required type="number" id="input-guessNum" name="guessNum" />
         <input type="submit" value="Play!" />
       </form>
-      <p>You choose: <span></span>, the machine</p>
+      <p class="hidden">
+        You choose: <span id="guessNum-text"></span>, the machine chose:
+        <span id="randomNum-text"></span>.
+      </p>
+      <h3 class="hidden">You Lost!</h3>
     </main>
 
     <script src="src/index.js"></script>
