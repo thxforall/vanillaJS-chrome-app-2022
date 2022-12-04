@@ -4,10 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>ToDoToDo</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Hello Let's Go!</h1>
+    <main>
+      <div class="header">
+        <div class="hiUser">
+          <form class="hidden">
+            <input
+              type="text"
+              name="name"
+              class="inputUserName"
+              required
+              placeholder="이름이 뭐에요?"
+            />
+          </form>
+          <span class="hiUser-text hidden"></span>
+        </div>
+        <div class="circle-sm hidden">
+          <span><i class="fa-solid fa-right-from-bracket fa-lg"></i></span>
+          <span>logout</span>
+        </div>
+      </div>
+
+      <div class="main-box">
+        <div class="main-box-todo">
+          <div class="todoListBox">
+            <input type="text" placeholder="To-Do List" />
+          </div>
+          <div class="github-box circle"></div>
+          <div class="insta-box circle"></div>
+          <div class="avatar-box circle"></div>
+        </div>
+
+        <div class="main-box-humor">
+          <div class="weather-box"></div>
+          <div class="time-box"></div>
+          <div class="hummor-box"></div>
+        </div>
+      </div>
+
+      <div class="quote-box"></div>
+    </main>
+
+    <script src="js/login.js"></script>
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/4bf42f841a.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
