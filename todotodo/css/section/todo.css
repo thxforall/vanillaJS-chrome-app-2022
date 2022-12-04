@@ -1,0 +1,88 @@
+.main-box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 224px;
+  column-gap: 24px;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.main-box-todo {
+  width: 588px;
+  height: 496px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 75px;
+  color: var(--black);
+}
+
+.todoListBox {
+  border-radius: 20px;
+  height: inherit;
+  background-color: var(--mint);
+  width: inherit;
+  padding: 8px;
+}
+.todo-list {
+  margin-top: 8px;
+}
+
+.todo-list li {
+  padding: 0 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0px;
+  color: var(--black);
+  font-size: 22px;
+}
+
+.fa-trash-can {
+  color: var(--black);
+  font-size: 22px;
+}
+.todoListForm {
+  display: flex;
+  justify-content: center;
+}
+
+.todoListForm input {
+  margin-top: 24px;
+  width: 90%;
+  font-size: 24px;
+}
+
+.todoListForm input::placeholder {
+  text-align: center;
+}
+
+.circle-box {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: inherit;
+  margin: 24px;
+}
+
+.circle a {
+  background-color: var(--mint);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 12px;
+}
+
+.circle i {
+  font-size: 80px;
+}
+
+.

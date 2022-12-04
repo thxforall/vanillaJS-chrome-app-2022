@@ -46,7 +46,11 @@
 }
 
 .hiUser input::placeholder {
-  color: var(--black);
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.hiUser :focus ::placeholder {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .hiUser-text {

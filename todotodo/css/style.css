@@ -1,13 +1,16 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500&family=Open+Sans:wght@400;600&display=swap");
 
-/* screens */
-@import url(screens/todotodo.css);
-@import url(screens/header.css);
+/* section */
+@import url(section/todo.css);
+@import url(section/header.css);
+@import url(section/humor.css);
+@import url(section/quote.css);
 
 /* variant */
 @import url(variable.css);
 
+@import url(main.css);
 @import url(reset.css);
 
 body {

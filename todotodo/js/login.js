@@ -23,7 +23,7 @@ const greetingsNight = [
   "굿나잇!",
   "오늘 하루 고생했어요",
   "수고많았습니다",
-  "무사히 감사합니다.",
+  "오늘 하루 감사합니다",
 ];
 let randomgGreetingsNight =
   greetingsNight[Math.floor(Math.random() * greetingsNight.length)];

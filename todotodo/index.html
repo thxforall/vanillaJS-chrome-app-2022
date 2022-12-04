@@ -18,12 +18,13 @@
               class="inputUserName"
               required
               placeholder="이름이 뭐에요?"
+              autocomplete="off"
             />
           </form>
           <span class="hiUser-text hidden"></span>
         </div>
         <div class="header-column hidden">
-          <div class="circle-sm hidden">
+          <div class="circle-sm">
             <span><i class="fa-solid fa-right-from-bracket fa-lg"></i></span>
             <span>로그아웃</span>
           </div>
@@ -38,21 +39,44 @@
             </form>
             <ul class="todo-list"></ul>
           </div>
-          <div class="github-box circle"></div>
-          <div class="insta-box circle"></div>
-          <div class="avatar-box circle"></div>
+          <div class="circle-box">
+            <div class="github-box circle">
+              <a href="https://github.com/thxforall/vanillaJS-chrome-app-2022">
+                <i class="fa-brands fa-github fa-xl"></i>
+              </a>
+            </div>
+            <div class="insta-box circle">
+              <a href="https://www.instagram.com/kiyorib/">
+                <i class="fa-brands fa-instagram fa-xl"></i>
+              </a>
+            </div>
+            <div class="avatar-box circle">
+              <a href="#">
+                <i class="fa-regular fa-user fa-xl"></i>
+              </a>
+            </div>
+          </div>
         </div>
 
         <div class="main-box-humor">
-          <div class="weather-box"></div>
-          <div class="time-box"></div>
-          <div class="hummor-box"></div>
+          <div class="data-box">
+            <div class="weather-box long-box"></div>
+            <div class="time-box long-box"></div>
+          </div>
+          <div class="hummor-box">
+            <h1>HAPPY AND SMILE</h1>
+            <div class="humor-slide"></div>
+          </div>
         </div>
       </div>
 
-      <div class="quote-box"></div>
+      <div class="quote-box">
+        <h1 class="quote"></h1>
+        <h1 class="quote quote-author"></h1>
+      </div>
     </main>
 
+    <script src="js/quote.js"></script>
     <script src="js/login.js"></script>
     <script src="js/todo.js"></script>
 
