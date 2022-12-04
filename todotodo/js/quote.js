@@ -50,3 +50,14 @@ const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = todaysQuote.quote;
 author.innerText = todaysQuote.author;
+
+const quoteBox = document.querySelector(".quote-box");
+
+function onClickQuote() {
+  let todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
+  quote.innerText = todaysQuote.quote;
+  author.innerText = todaysQuote.author;
+}
+
+quoteBox.addEventListener("click", onClickQuote);

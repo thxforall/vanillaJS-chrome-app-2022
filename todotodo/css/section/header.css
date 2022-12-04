@@ -61,3 +61,8 @@
   position: absolute;
   right: 0;
 }
+
+.header-column :hover {
+  color: var(--red);
+  cursor: pointer;
+}

@@ -40,11 +40,15 @@
   margin: 16px 0px;
   color: var(--black);
   font-size: 22px;
+  padding: 0px 32px;
 }
 
 .fa-trash-can {
   color: var(--black);
-  font-size: 22px;
+}
+
+button :hover {
+  color: var(--yellow);
 }
 .todoListForm {
   display: flex;
@@ -85,4 +89,6 @@
   font-size: 80px;
 }
 
-.
+.circle a:hover {
+  color: var(--yellow);
+}

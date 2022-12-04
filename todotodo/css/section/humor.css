@@ -22,7 +22,7 @@
   margin: 8px;
 }
 
-.hummor-box {
+.humor-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,6 +33,55 @@
   margin-top: 24px;
 }
 
-.hummor-box h1 {
+.humor-box h1 {
   font-size: 30px;
+}
+
+.time-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+}
+
+.weather-box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 32px;
+  padding: 16px;
+}
+
+.weather-box h1:last-child {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.humor-box h1 span:first-child {
+  color: var(--red);
+}
+
+.humor-box h1 span:last-child {
+  color: var(--yellow);
+}
+
+.humor-box {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.humor-box h1 {
+  margin-top: 8px;
+}
+
+.humor-gif img {
+  width: 400px;
+  height: 480px;
+  margin-top: 16px;
+  cursor: pointer;
 }
