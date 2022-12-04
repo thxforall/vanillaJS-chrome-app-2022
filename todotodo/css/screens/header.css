@@ -1,26 +1,59 @@
 .header {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--green);
+  width: auto;
 }
 
 .circle-sm {
-  width: 78px;
-  height: 78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 76px;
+  height: 76px;
   border-radius: 50%;
+  background-color: var(--mint);
+  color: var(--black);
+}
+
+.circle-sm span:last-child {
+  margin-top: 4px;
+  font-size: small;
 }
 
 .hiUser {
-  width: 840px;
+  width: 60%;
   height: 76px;
+  background-color: var(--mint);
+  color: var(--black);
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
 }
 
 .hiUser input {
+  font-size: 1.2rem;
+  background-color: var(--mint);
+  width: inherit;
   text-align: center;
   border-style: none;
   border-bottom: 2px solid var(--green);
   color: var(--black);
+}
+
+.hiUser input::placeholder {
+  color: var(--black);
+}
+
+.hiUser-text {
+  font-size: 1.2rem;
+}
+
+.header-column {
+  position: absolute;
+  right: 0;
 }

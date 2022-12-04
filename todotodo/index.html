@@ -22,16 +22,21 @@
           </form>
           <span class="hiUser-text hidden"></span>
         </div>
-        <div class="circle-sm hidden">
-          <span><i class="fa-solid fa-right-from-bracket fa-lg"></i></span>
-          <span>logout</span>
+        <div class="header-column hidden">
+          <div class="circle-sm hidden">
+            <span><i class="fa-solid fa-right-from-bracket fa-lg"></i></span>
+            <span>로그아웃</span>
+          </div>
         </div>
       </div>
 
       <div class="main-box">
         <div class="main-box-todo">
           <div class="todoListBox">
-            <input type="text" placeholder="To-Do List" />
+            <form class="todoListForm">
+              <input type="text" placeholder="To-Do List" />
+            </form>
+            <ul class="todo-list"></ul>
           </div>
           <div class="github-box circle"></div>
           <div class="insta-box circle"></div>
@@ -49,6 +54,7 @@
     </main>
 
     <script src="js/login.js"></script>
+    <script src="js/todo.js"></script>
 
     <!-- fontawesome -->
     <script

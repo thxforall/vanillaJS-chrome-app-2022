@@ -1,7 +1,7 @@
 const loginForm = document.querySelector("form");
 const loginInput = document.querySelector("form input");
 const greeting = document.querySelector(".hiUser-text");
-const logOut = document.querySelector(".header .circle-sm");
+const logOut = document.querySelector(".header .header-column");
 
 const greetingsMorning = [
   "굿모닝!",
@@ -64,3 +64,13 @@ if (savedUsername === null) {
 } else {
   paintGreetings();
 }
+
+function onClickLogOut() {
+  loginForm.classList.remove(HIDDEN_CLASSNAME);
+  loginForm.addEventListener("submit", onSubmit);
+  greeting.classList.add(HIDDEN_CLASSNAME);
+  logOut.classList.add(HIDDEN_CLASSNAME);
+  localStorage.removeItem(USERNAME_KEY);
+}
+
+logOut.addEventListener("click", onClickLogOut);

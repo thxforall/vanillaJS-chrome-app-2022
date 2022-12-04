@@ -12,10 +12,12 @@
 
 body {
   font-family: "Nanum Gothic", sans-serif;
-  background-color: var(--title_white);
+  background-color: var(--green);
+  color: var(--text_white);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 600;
   padding: 32px 120px;
 }
